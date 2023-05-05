@@ -1,0 +1,17 @@
+<script type="text/javascript">
+    var no = parseInt(prompt("enter the number:- "));
+        var Check = 1;
+        var i =2;
+        while(i <= no){
+            if (no % i == 0){
+                Check = 0;
+                break;
+            }
+            i++;
+        }
+        if (Check) {
+            document.write(no + " is a prime number");
+        } else {
+            document.write(no + " is not a prime number");
+        }
+</script>
